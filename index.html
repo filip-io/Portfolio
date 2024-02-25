@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filip Nilsson - Full-Stack .NET</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#0C0B25">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+
+</head>
+
+<body>
+    <div class="page-container">
+        <!-- Navigation -->
+        <header class="navigation">
+
+            <a href="index.html">
+                <img src="/img/fn.jpg" alt="FN logo" class="fn-logo">
+            </a>
+            
+            <nav>
+                <input type="checkbox" id="nav-toggle">
+                <ul class="menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="aboutme.html">About me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="ham-menu">
+                <label for="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+            </div>
+        </header>
+
+        <!-- Introduction -->
+        <main>
+            <div class="home-main-container">
+                <div class="home-main-container-left-box">
+                    <h1>Hi, I'm Filip</h1>
+                    <h2>Full-Stack .NET Student</h2>
+                </div>
+                <div class="home-main-container-right-box">
+                    <img src="./img/filip.jpg" alt="Picture of Filip" id="filip" class="filip-home-pic">
+                </div>
+            </div>
+
+            <article>
+                <div class="home-intro-container">
+                    <div class="home-intro-box">
+                        <div>
+                            <h3>A Few Tidbits About Me:</h3>
+                        </div>
+                        <div class="h4-container">
+                            <div><i class="fa-solid fa-keyboard fa-2xl" style="color: #d0cfcf;"></i><h4>Web Developer (to be)</h4></div>
+                            <div><i class="fa-solid fa-face-grin-beam fa-2xl" style="color: #d0cfcf;"></i><h4>UX Enthusiast</h4></div>
+                            <div><i class="fa-sharp fa-solid fa-music fa-2xl" style="color: #d0cfcf;"></i><h4>HiFi Nerd</h4></div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            
+            <div id="dennis" class="modal">
+                <div class="modal-content">
+                    <a href="#" class="modal-close">&times;</a>
+                    <img src="img/dennis.gif" alt="Dennis saying 'Ah ah ah, you didn't say the magic word'">
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer-container">
+            <ul class="footer-list">
+                <li><a href="https://github.com/filip-io" target="_blank">GitHub</a></li>
+                <li><a href="www.linkedin.com/in/filip-nilsson-37a61a51">Linkedin</a></li>
+            </ul>
+        </footer>
+    </div>
+
+</body>
+
+</html>
