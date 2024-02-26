@@ -650,7 +650,8 @@ p {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        max-width: 390px;
+        max-width: 100vw;
+        margin: 0 auto;
     }
 
     .projects-img-wrapper {
@@ -896,12 +897,13 @@ h4 {
         margin-top: 15px;
     }
 
-    .experiences-container {
+    .experience-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        max-width: 100%;
+        max-width: 100vw;
+        margin: 0 auto;
     }
 
     .experience-img-wrapper {
@@ -1140,7 +1142,7 @@ h4 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        max-width: 390px;
+        max-width: 100vw;
     }
 
     .education-img-wrapper {
