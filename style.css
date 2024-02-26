@@ -1235,7 +1235,6 @@ h4 {
 
 /* Print styling */
 
-
 @media print {
 
     .navigation,
@@ -1260,4 +1259,35 @@ h4 {
     .home-intro-box {
         margin: 25px auto;
     }
+
+    a.btn {
+        display: none;
+    }
+
+    .experience-container-content {
+        page-break-after: always;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .experience-img-wrapper {
+        order: -1;
+    }
+
+    a.experience-btn {
+        display: none;
+
+    }
+
+    .education-container-content {
+        page-break-after: always;
+    }
+
+    a.education-btn {
+        display: none;
+    }
+
 }
