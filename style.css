@@ -62,7 +62,6 @@ ul,
 ol {
     list-style-type: square;
     font-family: "KoHo", sans-serif;
-    padding-left: 20px;
 }
 
 li {
@@ -117,7 +116,7 @@ a.active {
 
 nav li {
     display: inline;
-    list-style: none;
+/*     list-style: none; */
     margin: 15px;
 }
 
@@ -157,7 +156,7 @@ li {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    list-style-type: none;
+/*     list-style-type: none; */
     padding: 0;
 }
 
@@ -193,6 +192,7 @@ li {
 ::-webkit-scrollbar-thumb:hover {
     background: #ff7f00;
 }
+
 
 
 
@@ -850,13 +850,11 @@ p {
 h3,
 h4 {
     font-family: "KoHo", sans-serif;
-    list-style: none;
     margin: 0px 10px 15px 0px;
 }
 
 .modal-content p {
     font-family: "KoHo", sans-serif;
-    list-style: none;
     margin: 0;
     margin-top: 15px;
 }
@@ -947,13 +945,11 @@ h4 {
     .experience-modal-content h2,
     h3 {
         font-family: "KoHo", sans-serif;
-        list-style: none;
         margin-top: 0px;
     }
 
     .experience-modal-content p {
         font-family: "KoHo", sans-serif;
-        list-style: none;
         margin-top: 15px;
     }
 
@@ -1088,13 +1084,11 @@ h4 {
 h3,
 h4 {
     font-family: "KoHo", sans-serif;
-    list-style: none;
     margin: 0px 10px 15px 0px;
 }
 
 .modal-content p {
     font-family: "KoHo", sans-serif;
-    list-style: none;
     margin: 0;
     margin-top: 15px;
 }
@@ -1186,13 +1180,11 @@ h4 {
     .education-modal-content h2,
     h3 {
         font-family: "KoHo", sans-serif;
-        list-style: none;
         margin-top: 0px;
     }
 
     .education-modal-content p {
         font-family: "KoHo", sans-serif;
-        list-style: none;
         margin-top: 15px;
     }
 
