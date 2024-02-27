@@ -53,6 +53,14 @@ h4 {
     font-family: "KoHo", sans-serif;
 }
 
+.section-title {
+    font-size: 36px;
+}
+
+.section-sub-title {
+    font-size: 24px;
+}
+
 
 p {
     font-family: "KoHo", sans-serif;
@@ -116,7 +124,6 @@ a.active {
 
 nav li {
     display: inline;
-/*     list-style: none; */
     margin: 15px;
 }
 
@@ -156,7 +163,6 @@ li {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-/*     list-style-type: none; */
     padding: 0;
 }
 
@@ -666,7 +672,8 @@ p {
         align-items: center;
         flex-wrap: wrap;
         width: 80%;
-        margin: 40px 0;
+        margin-top: 0px;
+        margin-bottom: 60px;
     }
 
     .project-container-right {
@@ -676,7 +683,8 @@ p {
         align-items: center;
         flex-wrap: wrap;
         width: 80%;
-        margin: 40px 0;
+        margin-top: 0px;
+        margin-bottom: 60px;
     }
 
     .project-description {
@@ -684,7 +692,6 @@ p {
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin: 0;
     }
 
     .project-description h3 {
@@ -1152,8 +1159,9 @@ h4 {
         align-items: center;
         flex-wrap: wrap-reverse;
         width: 300px;
-        margin: 40px 0;
         padding-bottom: 20px;
+        margin-top: 0px;
+        margin-bottom: 50px;
     }
 
     .education-description {
