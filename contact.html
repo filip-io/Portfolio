@@ -13,7 +13,6 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#0C0B25">
   <link rel="stylesheet" href="style.css">
-  <script defer src="script.js"></script>
 </head>
 
 <body>
@@ -45,14 +44,34 @@
 
     <main>
       <article class="contact-container">
-        <header class="contact-title">
-          <h1>Would you like to know more?</h1>
-        </header>
-        <br>
-        <p class="contact-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, esse laudantium.
-          Eligendi soluta,
-          necessitatibus corrupti atque assumenda dignissimos eaque esse placeat provident beatae? Similique, cumque
-          debitis velit iste optio quidem.</p>
+        <div class="contact-title">
+          <header>
+            <h1>Would you like to know more?</h1>
+          </header>
+        </div>
+
+        <div class="contact-sub-title">
+          <h2>Get in touch:</h2>
+        </div>
+
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-input-container">
+          <input type="hidden" name="access_key" value="74deb914-d2c4-4ab1-8e53-c24001f9ffd1">
+
+          <label for="name" class="contact-sr-only">Your Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" class="contact-inputs" required>
+
+          <label for="email" class="contact-sr-only">Your Email:</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+
+          <label for="message" class="contact-sr-only">Your Message:</label>
+          <textarea id="message" name="message" placeholder="Your Message" class="contact-inputs-textfield"
+            required></textarea>
+
+          <div class="h-captcha" data-captcha="true"></div>
+          <div class="contact-btn-box"><button type="submit" class="btn">Send</button></div>
+        </form>
+
+        <script src="https://web3forms.com/client/script.js" async defer></script>
       </article>
     </main>
 

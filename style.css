@@ -16,6 +16,7 @@ body,
 html {
     color: rgb(207, 207, 207);
     background-color: #09091e;
+    scroll-behavior: smooth;
 }
 
 .page-container {
@@ -167,7 +168,7 @@ li {
 }
 
 .footer-list li {
-    margin: 15px;
+    margin: 5px;
 }
 
 
@@ -267,13 +268,18 @@ li {
     align-items: center;
     justify-content: center;
     flex-flow: row wrap;
+    /*     width: 600px; */
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .home-main-container-left-box,
 .home-main-container-right-box {
-    margin: 50px;
+    margin: 30px;
+}
+
+.home-main-container-left-box h2 {
+    color: rgb(149, 149, 149);
 }
 
 
@@ -329,8 +335,7 @@ li {
 @media (max-width: 960px) {
 
     .home-main-container {
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 10px;
     }
 
     .home-main-title-container {
@@ -339,7 +344,8 @@ li {
         justify-content: center;
         flex-flow: row wrap;
         margin-top: 10px;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
+        text-align: center;
     }
 
     .home-main-container-left-box,
@@ -356,13 +362,15 @@ li {
         background-color: rgba(27, 35, 60, 0.397);
         width: 100%;
         height: auto;
-        padding: 25px;
-        padding-bottom: 10px;
-        margin-bottom: 15px;
+        padding: 15px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        margin-bottom: 10px;
     }
 
     .home-intro-container h3 {
         margin-right: 0px;
+        margin-left: 10px;
     }
 
     .home-intro-box {
@@ -492,7 +500,7 @@ li {
 }
 
 .projects-container> :last-child {
-    margin-bottom: 125px;
+    margin-bottom: 50px;
 }
 
 .project-container-left {
@@ -567,6 +575,7 @@ li {
 .btn:hover {
     background-color: orange;
     color: #0C0B25;
+    cursor: pointer;
 }
 
 
@@ -639,6 +648,8 @@ p {
 
 .siemens-gallery-wrapper {
     display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
     margin: 50px 50px;
     width: auto;
 }
@@ -766,7 +777,7 @@ p {
 }
 
 .experience-container> :last-child {
-    margin-bottom: 125px;
+    margin-bottom: 50px;
 }
 
 .experience-container-content {
@@ -924,9 +935,11 @@ h4 {
         align-items: center;
         flex-wrap: wrap-reverse;
         width: 275px;
-        margin: 40px 0;
+        margin-top: 0px;
+        margin-bottom: 60px;
         padding-bottom: 20px;
     }
+
 
     .experience-description {
         display: flex;
@@ -1000,7 +1013,7 @@ h4 {
 }
 
 .education-container> :last-child {
-    margin-bottom: 125px;
+    margin-bottom: 50px;
 }
 
 .education-container-content {
@@ -1158,7 +1171,7 @@ h4 {
         justify-content: center;
         align-items: center;
         flex-wrap: wrap-reverse;
-        width: 300px;
+        width: 275px;
         padding-bottom: 20px;
         margin-top: 0px;
         margin-bottom: 50px;
@@ -1216,22 +1229,94 @@ h4 {
 
 .contact-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
-    width: 375px;
-    margin-top: 100px;
+    width: 400px;
+    margin-top: 50px;
 }
 
 .contact-title {
     display: flex;
     margin-bottom: 25px;
+    font-size: 26px
+}
+
+.contact-sub-title {
+    display: flex;
+    font-size: 16px;
+    color: rgb(186, 186, 186);
+    margin-bottom: 15px;
 }
 
 .contact-content {
     display: flex;
 }
+
+.contact-input-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-inputs {
+    display: flex;
+    margin: 10px;
+    height: 35px;
+    margin-bottom: 15px;
+}
+
+.contact-inputs::placeholder {
+    font-family: "KoHo", sans-serif;
+    padding-left: 5px;
+    color: #323d96
+}
+
+.contact-inputs-textfield {
+    width: 353px;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.contact-inputs-textfield::placeholder {
+    font-family: "KoHo", sans-serif;
+    padding-top: 5px;
+    padding-left: 5px;
+    color: #323d96
+}
+
+.contact-btn-box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact-btn-box button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    background-color: #0A1139;
+    color: #FFD700;
+    border-color: #ffd912;
+}
+
+.contact-sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+
+
+
 
 
 
