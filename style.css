@@ -754,6 +754,11 @@ p {
         margin: 10px 10px;
         width: auto;
     }
+
+    .home-main-container-left-box,
+    .home-main-container-right-box {
+        margin: 15px 15px 15px 15px;
+    }
 }
 
 
@@ -1339,7 +1344,7 @@ h4 {
 
 @media (max-width: 960px) {
 
-    
+
     .contact-container {
         margin-top: 50px;
     }
