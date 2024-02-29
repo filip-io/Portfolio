@@ -268,8 +268,7 @@ li {
     align-items: center;
     justify-content: center;
     flex-flow: row wrap;
-    /*     width: 600px; */
-    margin-top: 30px;
+    margin-top: 100px;
     margin-bottom: 30px;
 }
 
@@ -1263,27 +1262,43 @@ h4 {
 .contact-inputs {
     display: flex;
     margin: 10px;
+    width: 162px;
     height: 35px;
     margin-bottom: 15px;
+    font-family: "KoHo", sans-serif;
+    padding-left: 10px;
+    border-style: none;
+    background-color: rgba(27, 35, 60, 0.397);
+    font-family: "KoHo", sans-serif;
+    color: rgb(223, 223, 223);
+    font-size: 0.9rem;
 }
 
 .contact-inputs::placeholder {
     font-family: "KoHo", sans-serif;
-    padding-left: 5px;
-    color: #323d96
+    color: #FFD700
 }
 
 .contact-inputs-textfield {
-    width: 353px;
+    width: 344px;
+    min-width: 344px;
+    min-height: 50px;
+    max-width: 344px;
+    max-height: 500px;
     height: 200px;
     margin-bottom: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-style: none;
+    font-family: "KoHo", sans-serif;
+    background-color: rgba(27, 35, 60, 0.397);
+    color: rgb(223, 223, 223);
+    font-size: 0.9rem;
 }
 
 .contact-inputs-textfield::placeholder {
     font-family: "KoHo", sans-serif;
-    padding-top: 5px;
-    padding-left: 5px;
-    color: #323d96
+    color: #FFD700
 }
 
 .contact-btn-box {
