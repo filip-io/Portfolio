@@ -1,6 +1,6 @@
 const filipImage = document.getElementById("filip");
 filipImage.addEventListener("click", function () {
-    const body = document.body;
+    const body = document.querySelector(".page-container");
     if (body.style.backgroundColor === "rgb(12, 11, 37)") {
         body.style.backgroundColor = "black";
     } else {
@@ -9,11 +9,10 @@ filipImage.addEventListener("click", function () {
 });
 
 
-
 document.addEventListener('DOMContentLoaded', function () {
 
     let typedCharacters = '';
-    const magicKeyword = 'magic';
+    const magicKeyword = 'neo';
 
     function handleMagicWord(event) {
 
