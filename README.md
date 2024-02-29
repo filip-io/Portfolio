@@ -2,9 +2,9 @@
 
 ## Intro 
 
-This was a school assignment to get more knowledge and hands on experience with mainly HTML and CSS. We were limited to use Javascript for two easter eggs only. Can you find them..?
+This was a school assignment to get more knowledge and hands on experience with mainly HTML and CSS. We were limited to use Javascript for two easter eggs only. Can you find them? 
 
-### A couple of clues: 
+### 🐣 Clues 🐇
 
     Click on the author of the portfolio.
     
