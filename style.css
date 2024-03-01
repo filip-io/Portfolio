@@ -1257,7 +1257,7 @@ h4 {
     display: flex;
     font-size: 16px;
     color: rgb(186, 186, 186);
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .contact-content {
@@ -1340,6 +1340,31 @@ h4 {
     clip: rect(0, 0, 0, 0);
     border: 0;
 }
+
+.contact-icons-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 20px 0px;
+    width: 100%;
+    gap: 20px;
+}
+
+.contact-icons-container-icon {
+    color: #FFD700;
+    transition: color 0.3s;
+}
+
+.contact-icons-container-icon:hover {
+    color: #FFFF00;
+}
+
+
+.contact-icons-container-icon.active {
+    font-weight: bold;
+    color: #FFFF00;
+}
+
+
 
 
 @media (max-width: 960px) {
