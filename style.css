@@ -304,6 +304,7 @@ li {
     padding: 25px;
     padding-bottom: 10px;
     margin: 0;
+    margin-top: 20px;
 }
 
 
@@ -890,6 +891,17 @@ h4 {
     margin-top: 15px;
 }
 
+.experience-modal-list ul, li {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: square;
+}
+
+.experience-modal-list li {
+    display: list-item;
+    margin-left: 15px;
+}
+
 
 :target {
     display: block;
@@ -984,6 +996,10 @@ h4 {
     .experience-modal-content p {
         font-family: "KoHo", sans-serif;
         margin-top: 15px;
+    }
+
+    .home-main-container h3 {
+        text-align: center;
     }
 
 
